@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sales",
+  "info": {
+    "singularName": "sale",
+    "pluralName": "sales",
+    "displayName": "sale"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "h3": {
+      "type": "string"
+    },
+    "auther": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "book_left": {
+      "type": "integer"
+    },
+    "price_before": {
+      "type": "integer"
+    },
+    "price_after": {
+      "type": "integer"
+    },
+    "review": {
+      "type": "integer"
+    }
+  }
+}

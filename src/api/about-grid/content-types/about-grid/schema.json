@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_grids",
+  "info": {
+    "singularName": "about-grid",
+    "pluralName": "about-grids",
+    "displayName": "about-grid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

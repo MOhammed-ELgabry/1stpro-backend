@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recommends",
+  "info": {
+    "singularName": "recommend",
+    "pluralName": "recommends",
+    "displayName": "recommend"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "string"
+    },
+    "auther": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rate": {
+      "type": "decimal"
+    }
+  }
+}

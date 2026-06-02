@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cart_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "book": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::book.book"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
