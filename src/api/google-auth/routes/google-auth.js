@@ -1,10 +1,24 @@
+// "use strict";
+
+// module.exports = {
+//   routes: [
+//     {
+//       method: "POST",
+//       path: "/google-auth",
+//       handler: "google-auth.googleLogin",
+//       config: {
+//         auth: false,
+//       },
+//     },
+//   ],
+// };
 "use strict";
 
 module.exports = {
   routes: [
     {
       method: "POST",
-      path: "/google-auth",
+      path: "/google-auth/googleLogin",
       handler: "google-auth.googleLogin",
       config: {
         auth: false,
