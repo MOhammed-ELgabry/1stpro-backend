@@ -668,6 +668,9 @@ export interface ApiOrderOrder extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.DefaultTo<'pending'>;
     paymentMethod: Schema.Attribute.Enumeration<['visa', 'wallet', 'cash']>;
+    paymentProof: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     paymentStatus: Schema.Attribute.Enumeration<['pending', 'paid', 'failed']> &
       Schema.Attribute.DefaultTo<'pending'>;
     phone: Schema.Attribute.String;
