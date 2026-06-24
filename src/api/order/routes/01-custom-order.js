@@ -1,13 +1,37 @@
-'use strict';
-
+// module.exports = {
+//   routes: [
+//     {
+//       method: "POST",
+//       path: "/orders/create-checkout-session",
+//       handler: "order.createCheckoutSession",
+//      config: {
+//   auth: {
+//     enabled: true
+//   }
+// }
+//     }
+//   ]
+// }; 
 module.exports = {
   routes: [
     {
-      method: 'GET',
-      path: '/orders/create-checkout-session',
-      handler: 'order.createCheckoutSession',
+      method: "POST",
+      path: "/orders/create-checkout-session",
+      handler: "order.createCheckoutSession",
       config: {
-        auth: false,
+        auth: {
+          enabled: true,
+        },
+      },
+    },
+    {
+      method: "POST",
+      path: "/orders/confirm-payment",
+      handler: "order.confirmPayment",
+      config: {
+        auth: {
+          enabled: true,
+        },
       },
     },
   ],

@@ -73,6 +73,9 @@
         "videos",
         "audios"
       ]
+    },
+    "sessionId": {
+      "type": "string"
     }
   }
 }
