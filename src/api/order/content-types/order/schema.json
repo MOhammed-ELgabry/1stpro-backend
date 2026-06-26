@@ -76,6 +76,9 @@
     },
     "sessionId": {
       "type": "string"
+    },
+    "expiresAt": {
+      "type": "datetime"
     }
   }
 }
